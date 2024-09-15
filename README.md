@@ -11,7 +11,7 @@ Der erste Schritt war es, mir entsprechende "Business Questions" auszudenken. In
 Um diese Fragen beantworten zu könnnen, nutzte ich MS SQL Server um die unterschiedlichen, für diese Analyse, relevanten Daten aufzubereiten und in einem ersten Schritt zu säubern. (die verwendeten Codes liegen separat bei)
 
 Im nächsten Schritt lud ich die Daten in Power BI wo ich dann per Power Query die letzten Säuberungen durchführte und das Datenmodell erstellte. 
-Anschließend ersteltte ich die notwendigen Measures (Berechnungen): Budgetsumme, Umsatzsumme, Profitsumme sowie das pozentuelle Verhältnis von Umsatz zu Budget.
+Anschließend erstellte ich die notwendigen Measures (Berechnungen): Budgetsumme, Umsatzsumme, Profitsumme sowie das prozentuelle Verhältnis von Umsatz zu Budget.
 Nun konnte ich die entsprechenden Visualisierungen erstellen. Hierbei verwendete ich Balkendiagramme
  
 Nun konnte ich die vorhergehenden Fragen beantworten:
@@ -22,6 +22,6 @@ Nun konnte ich die vorhergehenden Fragen beantworten:
    
 2. Für eventuelle Loyalitätsprogramme oder andere Kundenanalysen konnte Jordan Turner aus Roubaix als Kunde mit dem höchsten Umsatz (15.999 €) identifiziert werden.
    
-3. 2023 werden mit der Produktgruppe "Bikes" 94% der Umsätze generiert. 2022 waren es sogar noch 100% der Umsätze. Dies könnte auch eine Erweiterung des Produktportfolios im Jahr 2023 hinweisen.
+3. 2023 werden mit der Produktgruppe "Bikes" 94% der Umsätze generiert. 2022 waren es sogar noch 100% der Umsätze. Dies könnte auch auf eine Erweiterung des Produktportfolios im Jahr 2023 hinweisen.
    Besonders beliebt sind die Bikes Mountain-200 Black 46, 42 und 38 sowie Silver 46 und 42. Die umsatzschwächsten Produkte sind die "Half-Finger Gloves".
    Aus diesem Vergleich alleine lässt sich jedoch keine Aussage darüber treffen, ob das Produkt weiterhin angeboten werden sollte.
