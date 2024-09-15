@@ -1,26 +1,21 @@
-Dieses Power BI Projekt (Datei in "Personal-Project" kann heruntergeladen werden) zeigt meine Auswertung/Analyse des Unternehmens bzw. dessen Sample Datenbank "AdventureWorks" von Microsoft. (https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
+Dieses Power BI-Projekt (die Datei im Ordner "Personal-Project" kann heruntergeladen werden) zeigt meine Auswertung/Analyse des Unternehmens bzw. dessen Beispieldatenbank "AdventureWorks" von Microsoft. (https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
 
-Die Grundüberlegung war es, einen Plan-Ist Vergleich mit einem fiktiven Budget (Excel Liste mit Monatsumsätzen) für die Jahre 2022 und 2023 sowie den Jänner 2024 (letzter Monat in der Datenbank) zu erstellen.
+Die Grundüberlegung war, einen Plan-Ist-Vergleich mit einem fiktiven Budget (eine Excel-Liste mit Monatsumsätzen) für die Jahre 2022 und 2023 sowie den Januar 2024 (der letzte Monat in der Datenbank) zu erstellen.
 
-Der erste Schritt war es, mir entsprechende "Business Questions" auszudenken. In diesem Fall habe ich diese Fragen eher simpel und allgemein gehalten: 
+Der erste Schritt bestand darin, entsprechende "Business Questions" zu formulieren. In diesem Fall habe ich die Fragen eher simpel und allgemein gehalten:
 
-1. Wie entwicklet sich das Unternehmen im Vergleich zum gesetzten Budget? 
-2. Welche Kunden sind die größten Abnehmer?
+1. Wie entwickelt sich das Unternehmen im Vergleich zum gesetzten Budget?
+2. Welcher Kunde sind die größten Abnehmer?
 3. Welche Produkte erzielen die höchsten Umsätze?
 
-Um diese Anfragen beantworten zu können, nutzte ich MS SQL Server um die unterschiedlichen, für diese Analyse, relevanten Daten aufzubereiten und in einem ersten Schritt zu säubern. (die verwendeten Codes liegen separat bei)
+Um diese Fragen beantworten zu können, nutzte ich den MS SQL Server, um die unterschiedlichen, für diese Analyse relevanten Daten aufzubereiten und in einem ersten Schritt zu bereinigen. (Die verwendeten Codes liegen separat bei.)
 
-Im nächsten Schritt lud ich die Daten in Power BI wo ich dann per Power Query die letzten Säuberungen durchführte und das Datenmodell erstellte. 
-Anschließend erstellte ich die notwendigen Measures (KPIs): Budgetsumme, Umsatzsumme, Profitsumme sowie das prozentuelle Verhältnis von Umsatz zu Budget.
-Nun konnte ich die entsprechenden Visualisierungen erstellen. Hierbei verwendete ich Liniendiagramme zum Vergleich von Budget-/Umsatzdaten über einen Zeitraum, Balken Diagramme zur Gegenüberstellung unterschiedlicher Porduktkategorien, Matrizen zur genauen Aufschlüsselung nach Produkt/Kunden und Monaten sowie Kriesdiagramme und Landkarten für zusätzliche Informationen. Weiters fügte ich Filter für unterschiedliche Bestelldetails und Jahres- bzw. Monatsdaten hinzu.
- 
-Nun konnte ich die vorhergehenden Fragen beantworten:
+Im nächsten Schritt lud ich die Daten in Power BI, wo ich dann per Power Query die letzten Bereinigungen durchführte und das Datenmodell erstellte. Anschließend erstellte ich die notwendigen Measures (Berechnungen): Budgetsumme, Umsatzsumme, Profitsumme sowie das prozentuale Verhältnis von Umsatz zu Budget. Nun konnte ich die entsprechenden Visualisierungen erstellen. Hierbei verwendete ich Liniendiagramme zum Vergleich von Budget- und Umsatzdaten über einen Zeitraum, Balkendiagramme zur Gegenüberstellung unterschiedlicher Produktkategorien/Kunden, Matrizen zur genauen Aufschlüsselung nach Produkt/Kunde und Monat sowie Kreisdiagramme und Landkarten für zusätzliche Informationen. Weiters fügte ich Filter für unterschiedliche Bestelldetails sowie Jahres- und Monatsdaten hinzu.
 
-1. Im Jahr befand man sich deutlich unter den budgetierten Umsatz (- 28%). 2023 konnten die Planwerte um rd. 7 % überschritten werden.
-   Für 2024 wurden erst zu wenige Werte in die Datenbank eingespielt, was einen Vergleich nicht zielführend machen würde, weshalb 2024 mittels Filter exkludiert wurde.
-   
+Nun konnte ich die zuvor gestellten Fragen beantworten:
+
+1. Im Jahr 2022 lag der Umsatz deutlich unter dem budgetierten Wert (-28%). 2023 konnten die Planwerte um ca. 7 % überschritten werden. Für 2024 wurden noch zu wenige Werte in die Datenbank eingespielt, um einen Vergleich zielführend zu gestalten, weshalb 2024 mittels Filter ausgeschlossen wurde.
+
 2. Für eventuelle Loyalitätsprogramme oder andere Kundenanalysen konnte Jordan Turner aus Roubaix als Kunde mit dem höchsten Umsatz (15.999 €) identifiziert werden.
-   
-3. 2023 wurden mit der Produktgruppe "Bikes" 94% der Umsätze generiert. 2022 waren es noch 100% der Umsätze. Dies könnte beispielsweise auf eine Erweiterung des Produktportfolios im Jahr 2023 hinweisen.
-   Besonders beliebt waren die Bikes Mountain-200 Black 46, 42 und 38 sowie Silver 46 und 42. Zu den umsatzschwächsten Produkten zählen die "Half-Finger Gloves".
-   Aus diesem Vergleich alleine lässt sich jedoch keine Aussage darüber treffen, ob das Produkt weiterhin angeboten werden sollte.
+
+3. Im Jahr 2023 wurden 94 % der Umsätze mit der Produktgruppe "Bikes" generiert, während es 2022 noch 100 % waren. Dies könnte auf eine Erweiterung des Produktportfolios im Jahr 2023 hindeuten. Besonders beliebt waren die Bikes Mountain-200 Black in den Größen 46, 42 und 38 sowie Silver in den Größen 46 und 42. Zu den umsatzschwächsten Produkten zählen die "Half-Finger Gloves". Aus diesem Vergleich allein lässt sich jedoch keine Aussage darüber treffen, ob das Produkt weiterhin angeboten werden sollte.
