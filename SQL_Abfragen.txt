@@ -11,7 +11,7 @@ FROM
   DimCustomer as c
   LEFT JOIN dimgeography AS g ON g.geographykey = c.geographykey 
 ORDER BY 
-  CustomerKey ASC -- Liste nach Kundenschlüssel geordnet
+  CustomerKey ASC                              -- Liste nach Kundenschlüssel geordnet
 
 
 -- Clean DimDate 
@@ -34,7 +34,7 @@ SELECT
   p.[ProductKey] AS Produktschlüssel, 
   p.[ProductAlternateKey] AS Produktschlüssel2, 
   p.[EnglishProductName] AS Produktname, 
-  ps.EnglishProductSubcategoryName AS Subkategorie, -- Joined in von Sub Category Tabelle
+  ps.EnglishProductSubcategoryName AS Subkategorie,  -- Joined in von Sub Category Tabelle
   pc.EnglishProductCategoryName AS Produktkategorie, -- Joined in von Category Tabelle
   p.[Color] AS Produktfarbe, 
   p.[Size] AS Produktgröße, 
