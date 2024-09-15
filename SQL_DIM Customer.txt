@@ -1,0 +1,15 @@
+-- Clean DimCustomer
+SELECT 
+  c.customerkey AS 'Kundenschlüssel',
+  c.firstname AS Vorname,
+  c.lastname AS Nachname, 
+  c.firstname + ' ' + lastname AS Vollname, 
+  -- Vor- und Nachname kombiniert
+  CASE c.gender WHEN 'M' THEN 'Male' WHEN 'F' THEN 'Female' END AS Geschlecht,
+  c.datefirstpurchase AS DatumErsterKauf,
+  g.city AS Stadt -- Joined in Stadt (des Kunden) von Geography Tabelle
+FROM 
+  DimCustomer as c
+  LEFT JOIN dimgeography AS g ON g.geographykey = c.geographykey 
+ORDER BY 
+  CustomerKey ASC -- Liste nach Kundenschlüssel geordnet

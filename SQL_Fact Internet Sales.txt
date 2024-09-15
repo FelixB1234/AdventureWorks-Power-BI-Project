@@ -1,0 +1,14 @@
+-- Clean ProductDIM
+SELECT 
+      [ProductKey] AS Produktschlüssel,
+      [OrderDateKey] AS Bestelldatumschlüssel,
+      [DueDateKey] AS Fälligkeitsdatumschlüssel,
+      [ShipDateKey] AS Versanddatumschlüssel,
+      [CustomerKey]AS Kundenschlüssel,
+      [SalesOrderNumber]AS Bestellnummer,
+      [SalesAmount] AS Umsatz
+FROM  [FactInternetSales]
+WHERE 
+ LEFT (OrderDateKey, 4) >= YEAR(GETDATE()) -2 -- Immer nur 2 Jahre seit Kauf
+Order BY
+ OrderDateKey ASC

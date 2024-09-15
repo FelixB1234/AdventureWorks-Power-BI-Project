@@ -1,0 +1,19 @@
+-- Clean DimProduct 
+SELECT 
+  p.[ProductKey] AS Produktschlüssel, 
+  p.[ProductAlternateKey] AS Produktschlüssel2, 
+  p.[EnglishProductName] AS Produktname, 
+  ps.EnglishProductSubcategoryName AS Subkategorie, -- Joined in von Sub Category Tabelle
+  pc.EnglishProductCategoryName AS Produktkategorie, -- Joined in von Category Tabelle
+  p.[Color] AS Produktfarbe, 
+  p.[Size] AS Produktgröße, 
+  p.[ProductLine] AS Produktlinie, 
+  p.[ModelName] AS Produktmodellname, 
+  p.[EnglishDescription] AS Produktbeschreibung, 
+  ISNULL (p.Status, 'Outdated') AS Produktstatus 
+FROM 
+  [DimProduct] as p
+  LEFT JOIN DimProductSubcategory AS ps ON ps.ProductSubcategoryKey = p.ProductSubcategoryKey 
+  LEFT JOIN DimProductCategory AS pc ON ps.ProductCategoryKey = pc.ProductCategoryKey 
+order by 
+  p.ProductKey asc

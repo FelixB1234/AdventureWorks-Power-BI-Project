@@ -1,0 +1,13 @@
+-- Clean DimDate 
+SELECT [DateKey] AS Datumschlüssel,
+       [FullDateAlternateKey] AS Datum,
+ [EnglishDayNameOfWeek] AS Tag,
+ [WeekNumberOfYear] AS WochenNr,
+ [EnglishMonthName] AS Monat,
+ LEFT([EnglishMonthName], 3) AS Monatkurz, 
+ [MonthNumberOfYear] AS MonatNr,
+ [CalendarQuarter] AS Quartal,
+ [CalendarYear] AS Jahr
+ 
+FROM [DimDate]
+WHERE CalendarYear >= 2022
