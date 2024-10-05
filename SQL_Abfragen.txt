@@ -50,7 +50,7 @@ ORDER BY
   p.ProductKey asc
 
 
--- Clean ProductDIM
+-- Clean FactInternetSales
 SELECT 
       [ProductKey] AS Produktschlüssel,
       [OrderDateKey] AS Bestelldatumschlüssel,
