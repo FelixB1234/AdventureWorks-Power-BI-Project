@@ -35,7 +35,7 @@ SELECT
   p.[ProductAlternateKey] AS Produktschlüssel2, 
   p.[EnglishProductName] AS Produktname, 
   ps.EnglishProductSubcategoryName AS Subkategorie,  -- Joined in von Sub Category Tabelle
-  pc.EnglishProductCategoryName AS Produktkategorie, -- Joined in von Category Tabelle
+  pc.EnglishProductCategoryName AS Produktkategorie, -- Joined in von Product Category Tabelle
   p.[Color] AS Produktfarbe, 
   p.[Size] AS Produktgröße, 
   p.[ProductLine] AS Produktlinie, 
