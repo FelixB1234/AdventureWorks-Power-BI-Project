@@ -14,7 +14,7 @@ Im nächsten Schritt lud ich die Daten in Power BI, wo ich dann per Power Query 
 
 Nun konnte ich die zuvor gestellten Fragen beantworten:
 
-1. Im Jahr 2022 lag der Umsatz deutlich unter dem budgetierten Wert (-23 %). 2023 konnten die Planwerte um 26 % überschritten werden. Kumuliert liegt man für den Beobachtungszeitraum 2022 und 2023 deutlich über dem Planwert (+13%) 
+1. Im Jahr 2022 lag der Umsatz deutlich unter dem budgetierten Wert (-19 %). 2023 konnten die Planwerte um 35 % überschritten werden. Kumuliert liegt man für den Beobachtungszeitraum 2022 und 2023 deutlich über dem Planwert (+15 %) 
 
 2. Für eventuelle Loyalitätsprogramme oder andere Kundenanalysen konnte Jordan Turner aus Roubaix als Kunde mit dem höchsten Umsatz (rd. 16.000 €) identifiziert werden.
 
