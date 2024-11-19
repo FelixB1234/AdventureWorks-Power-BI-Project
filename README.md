@@ -10,7 +10,7 @@ Dieses Projekt zielt darauf ab, Geschäftsdaten aus der AdventureWorks-Datenbank
 Die Analyse konzentriert sich auf folgende Fragen:
 
 1. **Wie entwickelt sich der Umsatz im Vergleich zum Budget?**
-2. **Wer ist die/der umsatzstärkste Kundin/Kunde?**
+2. **Wer sind die umsatzstärksten Kund:innen?**
 3. **Welche Produkte generieren die höchsten Umsätze?**
 
 ## Vorgehensweise
