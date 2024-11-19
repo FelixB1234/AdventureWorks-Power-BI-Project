@@ -1,7 +1,7 @@
 # AdventureWorks Datenanalyse
 ## Datenquelle
 Die Datenbasis für dieses Projekt bildet die Beispieldatenbank AdventureWorks von Microsoft. Sie enthält fiktive Unternehmensdaten und kann für Analysezwecke genutzt werden. Zusätzlich wurde eine Excel-Liste mit Monatsbudgets für die Jahre 2022 und 2023 erstellt, um Plan-Ist-Vergleiche durchzuführen. Das Jahr 2024 wurde aufgrund begrenzter Verfügbarkeit von Daten (nur Januar 2024) nicht berücksichtigt.
-[AdventureWorks-Datenbank](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
+[Link zum Datensatz](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
 
 ## Projektübersicht
 Dieses Projekt zielt darauf ab, Geschäftsdaten aus der AdventureWorks-Datenbank zu analysieren, um Erkenntnisse über Umsatzentwicklung, Kunden und Produkte zu gewinnen. Der Fokus liegt auf einem Plan-Ist-Vergleich und der Beantwortung zentraler „Business Questions“.
