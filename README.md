@@ -25,7 +25,7 @@ Wichtige Berechnungen wie Umsatzsumme, Budgetsumme und deren prozentuale Abweich
 
 ### 1.**Plan-Ist-Vergleich**
 
-- Der Umsatz für 2022 und 2023 betrug insgesamt 22,2 Mio. € und lag damit 14,9 % (2,9 Mio. €) über dem budgetierten Wert von 19,3 Mio. €.
+- Der Umsatz für 2022 und 2023 betrug insgesamt 22,2 Mio. € und lag damit 15 % (2,9 Mio. €) über dem budgetierten Wert von 19,3 Mio. €.
 - 2022: Der Umsatz war 19 % unter dem Budget.
 - 2023: Die Planwerte wurden um 35 % übertroffen.
 
@@ -35,7 +35,7 @@ Wichtige Berechnungen wie Umsatzsumme, Budgetsumme und deren prozentuale Abweich
 
 ### 3.**Produktanalyse**
 
-- Bikes machten 2023 mit einem Umsatz von 15,4 Mio. € etwa 93,9 % des Gesamtumsatzes aus, 2022 und 2023 kumuliert sogar 95,5% (21,2 Mio. €).
+- Bikes machten 2023 mit einem Umsatz von 15,4 Mio. € etwa 94 % des Gesamtumsatzes aus, 2022 und 2023 kumuliert sogar rund 96% (21,2 Mio. €).
 - Die beliebtesten Produkte waren Mountain-200 Bikes in verschiedenen Farben und Größen, die jeweils über 1,3 Mio. € Umsatz generierten.
 - Die Kategorie Accessories (z. B. Helmets und Tires and Tubes) trug mit 3 % zum Umsatz bei.
 
